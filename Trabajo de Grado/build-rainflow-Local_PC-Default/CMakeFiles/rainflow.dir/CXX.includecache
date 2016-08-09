@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/usuario/rainflow/main.cpp
+math.h
+-
+stdlib.h
+-
+stdio.h
+-
+fstream
+-
+iostream
+-
+
